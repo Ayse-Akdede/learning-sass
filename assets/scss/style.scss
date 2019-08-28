@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px; }
+  
+  html {
+    height: 100%;
+    width: 100%; }
+  
+  body {
+    background-color: grey;
+    min-height: 100%;
+    min-width: 100%;
+    position: relative; }
+  
+  h1 {
+    margin: 20px;
+    margin-left: 40%;
+    font-size: 70px;
+    color: lightskyblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif; }
+  
+  .error {
+    display: inline;
+    width: 162px;
+    height: 240px;
+    margin-top: 5%; }
+  
+  #error-une {
+    margin-left: 35%; }
+  
+  #manga {
+    position: absolute;
+    bottom: 0px;
+    width: 282px;
+    height: 300px;
+    &:hover {
+    width: 564px;
+    height: 600px; }
+  }
+  
+  input {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: lightskyblue;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    padding: 5px;
+    color: black; }
+  
+  input:hover {
+    cursor: pointer;
+    background-color: #27a7d1;
+    border: 2px solid transparent; }
+  
+  footer {
+    position: absolute;
+    bottom: 0px; }
+  
